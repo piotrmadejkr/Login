@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Source+Sans+Pro:600,700');
+
+
+body {
+    background-image: url('../img/bgSlider.jpg');
+    background-size: 3000px;
+    background-repeat: no-repeat;
+    font-family: sans-serif 'Lato';
+}
+.navbar-right {
+    margin-right: 10vw;
+    
+
+}
+.header {
+    background-color: rgba(128, 128, 128, 0.712);
+    
+    transition: .5s all;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+form{
+
+display: flex; 
+justify-content: center;
+margin: 100px;
+
+
+
+
+
+}
+
+
+input {
+    margin: 0 auto;
+    display: block;
+    width: 20vw;
+    padding: 10px;
+    background-color: rgba(224, 229, 235, 0.205);
+    transition: .5s all;
+    font-family: sans-serif 'Lato';
+    min-width:200px;
+}
+
+fieldset {
+    min-width: 400px;
+    padding: 50px;
+    background: rgba(38, 49, 59, 0.8);
+    color: whitesmoke;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    margin: 0 auto;
+}
+fieldset h4 {
+    text-align: center;
+    font-family: sans-serif 'Lato';
+}
+#wyslij {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    background: #00C853;
+    padding: 30px;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 30px #666;
+    min-width: 200px;
+    text-align: center;
+}
+.nav-link, .btn {
+    color: whitesmoke;
+    font-family:  'Roboto';
+    font-size: 20px;
+    text-shadow: 1px 1px 30px rgb(73, 72, 72);
+
+}
+
+.zalogowano,.produkty {
+    background-color: rgba(245, 239, 239, 0.712);
+    padding: 10px;
+    margin: 100px 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    transition: .5s all;
+}
+img {
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+img:hover {
+    opacity: 0.8;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.8);
+    padding: 0;
+    transition: .3s ease-in-out;
+    
+}
+.btn {
+    color: black;
+    font-family:  'Roboto';
+    font-size: 20px;
+    text-shadow: 1px 1px 30px rgb(73, 72, 72);
+}
+.info {
+    background-color: rgba(245, 239, 239, 0.712);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+a {
+    cursor: pointer;
+}
+.koszyk {
+text-align: center;
+background-image:  url('https://image.flaticon.com/icons/png/512/33/33594.png');
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: 20vw;
+background-image: rgba(0,0,0,0.7);
+background-color: rgba(245, 239, 239, 0.712);
+
+}
